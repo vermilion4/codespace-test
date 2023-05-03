@@ -3,7 +3,7 @@ import { socials } from '../data/socials';
 
 const Footer = () => {
   return (
-    <div className='pt-8 px-7 pb-10 font-dm-sans'>
+    <footer className='pt-8 px-7 pb-10 font-dm-sans'>
       <hr className='mt-8 mb-[50px] border-2 border-dashed border-[#D1D1D2]' />
       <div className='flex flex-col sm:flex-row items-center justify-between space-y-5 lg:space-y-0 text-subdued-light'>
         <div className='text-center sm:text-start space-y-5'>
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
