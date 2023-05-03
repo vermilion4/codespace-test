@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='bg-hero-bg min-h-screen relative bg-no-repeat bg-center bg-cover '>
       <Header />
       <div className='h-[calc(100vh-100px)] flex flex-col justify-center text-center items-center'>
-        <h1 className='text-4xl md:text-5xl lg:text-[64px] font-semibold w-[80%] lg:w-1/2 leading-[42px] lg:leading-[83px] mb-4'>
+        <h1 className='text-4xl md:text-5xl lg:text-[64px] font-semibold w-[90%] lg:w-1/2 leading-[42px] lg:leading-[83px] mb-4'>
           
           Connect with <span className='text-primary color-slide bounce-delayed'>GenZ-s</span> in tech
           across <span className='text-primary color-slide'>Africa</span>
