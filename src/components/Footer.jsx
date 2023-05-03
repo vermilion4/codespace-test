@@ -30,7 +30,7 @@ const Footer = () => {
                 <img
                   src={icon}
                   alt={id}
-                  className={`w-[37px] h-[37px] absolute top-[0.32rem] left-[0.32rem]  ${id === socials.length - 1 ? 'w-[22px] h-[22px] top-[0.7rem] left-3' : ''}`}
+                  className={`absolute ${id === socials.length - 1 ? 'w-[22px] h-[22px] top-[0.7rem] left-3' : 'w-[37px] h-[37px] top-[0.32rem] left-[0.32rem]'}`}
                 />
                 <img
                   src={'/icons/overlay.svg'}
