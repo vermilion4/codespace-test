@@ -30,12 +30,12 @@ const Footer = () => {
                 <img
                   src={icon}
                   alt={id}
-                  className='w-[37px] h-[37px] absolute top-[0.32rem] left-[0.32rem]'
+                  className={`w-[37px] h-[37px] absolute top-[0.32rem] left-[0.32rem]  ${id === socials.length - 1 ? 'w-[22px] h-[22px] top-[0.7rem] left-3' : ''}`}
                 />
                 <img
                   src={'/icons/overlay.svg'}
                   alt={id}
-                  className='w-[24px] h-[24px] '
+                  className={`w-[24px] h-[24px] ${id === socials.length - 1 ? 'hidden' : ''}`}
                 />
               </a>
             ))}

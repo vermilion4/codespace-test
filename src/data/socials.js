@@ -11,10 +11,12 @@ export const socials = [
   },
   {
     id: 2,
-    icon: '/icons/instagram.svg'
+    icon: '/icons/instagram.svg',
+    social_link: 'https://www.instagram.com/codesspace/'
   },
   {
     id: 3,
-    icon: '/icons/tik_tok.svg'
+    icon: '/icons/linkedin.svg',
+    social_link: 'https://www.linkedin.com/company/codespaceafrica'
   }
 ]
