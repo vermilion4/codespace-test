@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className="App font-gelion">
+    <div className="App font-gelion dark:bg-[#1F1F1F] bg-white">
       <Hero />
       <Footer />
     </div>
