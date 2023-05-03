@@ -14,14 +14,14 @@ const Hero = () => {
         <p className='text-xl lg:text-2xl text-subdued mb-[37px] lg:mb-16 font-dm-sans'>
           we are coming soon 🚧🚧
         </p>
-        <button className='bg-primary text-white font-semibold text-base lg:text-2xl rounded-[25px] px-[18px] py-[14.5px] md:px-8 md:py-4 lg:px-[67px] lg:py-[23px] hover:scale-110 transition-all md:mb-48'>
+        <button className='bg-primary text-white font-semibold text-base lg:text-2xl rounded-[25px] px-[18px] py-[14.5px] md:px-8 md:py-4 lg:px-[67px] lg:py-[23px] hover:scale-110 transition-all md:mb-32'>
           <a href='https://forms.gle/csVUQEScZpiK9WzE8' target='_blank' rel="noreferrer">Join the Community</a>
         </button>
       </div>
       <img
         src='/icons/arrow.svg'
         alt='arrow'
-        className='absolute bottom-5 md:bottom-0 rotate-12 md:w-[232px] '
+        className='absolute bottom-5 md:bottom-0 rotate-12 md:w-[202px] '
       />
     </div>
   );
