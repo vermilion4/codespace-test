@@ -17,6 +17,10 @@ module.exports = {
       backgroundImage: {
         'hero-bg' : "url('/public/images/doodle-bg.png')"
       },
+      animation: {
+        'spin-slow': 'spin 6s linear infinite',
+      }
+
    
     },
   },

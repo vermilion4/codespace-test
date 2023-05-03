@@ -3,12 +3,13 @@ import Header from './Header';
 
 const Hero = () => {
   return (
-    <div className='bg-hero-bg min-h-screen relative bg-no-repeat bg-center bg-cover dark:text-white'>
+    <div className='bg-hero-bg min-h-screen relative bg-no-repeat bg-center bg-cover '>
       <Header />
       <div className='h-[calc(100vh-100px)] flex flex-col justify-center text-center items-center'>
         <h1 className='text-4xl md:text-5xl lg:text-[64px] font-semibold w-[80%] lg:w-1/2 leading-[42px] lg:leading-[83px] mb-4'>
-          Connect with <span className='text-primary'>GenZ-s</span> in tech
-          across <span className='text-primary'>Africa</span>
+          
+          Connect with <span className='text-primary color-slide bounce-delayed'>GenZ-s</span> in tech
+          across <span className='text-primary glow-africa color-slide'>Africa</span>
         </h1>
         <p className='text-xl lg:text-2xl text-subdued mb-[37px] lg:mb-16 font-dm-sans'>
           we are coming soon 🚧🚧
