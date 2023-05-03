@@ -18,9 +18,9 @@ const Hero = () => {
         </button>
       </div>
       <img
-        src='/images/arrow.png'
+        src='/icons/arrow.svg'
         alt='arrow'
-        className='absolute bottom-5  sm:-left-2 md:w-[282px] -left-14 md:-left-9'
+        className='absolute bottom-5 sm:-left-2 md:w-[232px] md:-left-9'
       />
     </div>
   );
