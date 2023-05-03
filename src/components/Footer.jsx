@@ -25,7 +25,7 @@ const Footer = () => {
                 key={id}
                 href={social_link}
                 target='_blank'
-                rel="noopener"
+                rel="noreferrer"
                 className='bg-[#F7F7F7] rounded-full w-[47px] h-[47px] grid place-content-center relative hover:cursor-pointer hover:scale-110 transition-all'>
                 <img
                   src={icon}
