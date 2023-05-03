@@ -4,6 +4,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily:{
+      'gelion': ['Gelion Regular'],
+      'dm-sans': ['DM Sans']
+    },
     extend: {
       colors:{
         primary: '#5D5CD6',
@@ -12,9 +16,11 @@ module.exports = {
       },
       backgroundImage: {
         'hero-bg' : "url('/public/images/doodle-bg.png')"
-      }
+      },
+   
     },
   },
   plugins: [],
+
 }
 

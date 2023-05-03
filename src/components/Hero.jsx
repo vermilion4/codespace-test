@@ -10,7 +10,7 @@ const Hero = () => {
           Connect with <span className='text-primary'>GenZ-s</span> in tech
           across <span className='text-primary'>Africa</span>
         </h1>
-        <p className='text-xl lg:text-2xl text-subdued mb-[37px] lg:mb-16'>
+        <p className='text-xl lg:text-2xl text-subdued mb-[37px] lg:mb-16 font-dm-sans'>
           we are coming soon 🚧🚧
         </p>
         <button className='bg-primary text-white font-semibold text-base lg:text-2xl rounded-[25px] px-[18px] py-[14.5px] md:px-8 md:py-4 lg:px-[67px] lg:py-[23px] hover:scale-110 transition-all'>

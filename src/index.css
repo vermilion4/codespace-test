@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Gelion Regular';
+  src: url('/public/fonts/gelion/Gelion\ Regular.woff') format('woff');
+}
+/* @media (prefers-color-scheme: dark) {
+  body{
+    background-color: #121111;
+  }
+} */
