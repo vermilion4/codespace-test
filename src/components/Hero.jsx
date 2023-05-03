@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className='text-4xl md:text-5xl lg:text-[64px] font-semibold w-[80%] lg:w-1/2 leading-[42px] lg:leading-[83px] mb-4'>
           
           Connect with <span className='text-primary color-slide bounce-delayed'>GenZ-s</span> in tech
-          across <span className='text-primary glow-africa color-slide'>Africa</span>
+          across <span className='text-primary color-slide'>Africa</span>
         </h1>
         <p className='text-xl lg:text-2xl text-subdued mb-[37px] lg:mb-16 font-dm-sans'>
           we are coming soon 🚧🚧
