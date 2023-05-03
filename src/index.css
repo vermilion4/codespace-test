@@ -9,10 +9,24 @@
 body{
   background-color: #fff;
 }
+.image-light {
+  display: block;
+}
+
+.image-dark {
+  display: none;
+}
 @media (prefers-color-scheme: dark) {
  body{
   background-color: #1f1f1f;
  }
+ .image-light {
+  display: none;
+}
+
+.image-dark {
+  display: block;
+}
 }
 /* @media (prefers-color-scheme: dark) {
   body{

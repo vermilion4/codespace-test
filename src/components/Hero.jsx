@@ -3,7 +3,7 @@ import Header from './Header';
 
 const Hero = () => {
   return (
-    <div className='bg-hero-bg min-h-screen relative bg-no-repeat bg-center bg-cover'>
+    <div className='bg-hero-bg min-h-screen relative bg-no-repeat bg-center bg-cover dark:text-white'>
       <Header />
       <div className='h-[calc(100vh-100px)] flex flex-col justify-center text-center items-center'>
         <h1 className='text-4xl md:text-5xl lg:text-[64px] font-semibold w-[80%] lg:w-1/2 leading-[42px] lg:leading-[83px] mb-4'>
