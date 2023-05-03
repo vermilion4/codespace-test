@@ -15,7 +15,7 @@ const Hero = () => {
           we are coming soon 🚧🚧
         </p>
         <button className='bg-primary text-white font-semibold text-base lg:text-2xl rounded-[25px] px-[18px] py-[14.5px] md:px-8 md:py-4 lg:px-[67px] lg:py-[23px] hover:scale-110 transition-all'>
-          <a href='https://forms.gle/csVUQEScZpiK9WzE8' target='_blank'></a>Join the Community
+          <a href='https://forms.gle/csVUQEScZpiK9WzE8' target='_blank'>Join the Community</a>
         </button>
       </div>
       <img
