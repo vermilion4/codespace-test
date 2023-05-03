@@ -20,7 +20,7 @@ const Hero = () => {
       <img
         src='/images/arrow.png'
         alt='arrow'
-        className='absolute bottom-5 w-[250px] sm:bottom-2 sm:-left-2 md:w-[282px] -left-20 md:-left-9'
+        className='absolute bottom-5  sm:-left-2 md:w-[282px] -left-14 md:-left-9'
       />
     </div>
   );
