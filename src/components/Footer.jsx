@@ -20,9 +20,10 @@ const Footer = () => {
 
           {/* Socials */}
           <div className='flex space-x-[20.53px]'>
-            {socials.map(({ id, icon }) => (
-              <div
+            {socials.map(({ id, icon, social_link }) => (
+              <a
                 key={id}
+                href={social_link}
                 className='bg-[#F7F7F7] rounded-full w-[47px] h-[47px] grid place-content-center relative hover:cursor-pointer hover:scale-110 transition-all'>
                 <img
                   src={icon}
@@ -34,7 +35,7 @@ const Footer = () => {
                   alt={id}
                   className='w-[24px] h-[24px] '
                 />
-              </div>
+              </a>
             ))}
           </div>
         </div>
